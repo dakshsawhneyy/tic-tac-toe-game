@@ -6,36 +6,35 @@ body {
   background-color: #548687;
   text-align: center;
 }
-h1 {
-  margin: 2rem 0rem;
-}
-.game button {
-  height: 9rem;
-  width: 9rem;
-}
-.game {
+.container {
+  height: 70vh;
   display: flex;
-  /* align-items: center; */
+
   justify-content: center;
-  height: 31rem;
-  width: 32rem;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.container {
-  height: 33rem;
+.game {
+  height: 60vmin;
+  width: 60vmin;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
+  gap: 1.5vmin;
 }
+
 .box {
-  margin-left: 1rem;
-  border: none;
+  height: 18vmin;
+  width: 18vmin;
   border-radius: 1rem;
-  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
-  font-size: 5rem;
+  border: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  font-size: 8vmin;
   color: #b0413e;
+  background-color: #ffffc7;
 }
+
 #reset {
   padding: 1rem;
   font-size: 1.5rem;
