@@ -1,13 +1,19 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
   background-color: #548687;
   text-align: center;
 }
+h1{
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
 .container {
-  height: 70vh;
+  height: 65vh;
   display: flex;
 
   justify-content: center;
@@ -42,4 +48,28 @@ body {
   color: #fff;
   border-radius: 1rem;
   border: none;
+}
+#new {
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: #191913;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+}
+#top {
+  font-size: 3rem;
+  color: #ffffc7;
+}
+.top-text{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.hide {
+  display: none;
 }
